@@ -3,9 +3,12 @@ package chapter2.vector;
 import itertor.IteratorVector;
 import java.util.Iterator;
 
-/*
-1、基于数组的向量实现；
-2、使用查找、排序的相关算法时，需要保证传入向量的数据类型重写了equal方法和compareTo方法
+/** 一个基于数组的向量类型的实现
+ * 底层结构是一个数组，实现的功能有循秩访问、有序/无序向量的去重和查找、向量排序等
+ * 注意：使用查找、排序的相关算法时，需要保证传入向量的数据类型重写了equal方法和compareTo方法
+ * @author XLShi0913
+ * @author 2722316138@qq.com
+ * @since 2020-06
  */
 public class Vector<T> {
 //=============================================================================
